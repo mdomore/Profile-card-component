@@ -2,14 +2,14 @@ html {
     height: 100%;
 }
 
-  body {
+body {
     background-color: hsl(185, 75%, 39%);
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
     margin: 0;
     background-image: url(images/bg-pattern-top.svg),url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
-    background-position: calc(50% - 480px) calc(50% - 350px) , calc(50% + 500px) calc(50% + 530px);
+    background-position: calc(50% - 520px) calc(50% - 350px) , calc(50% + 450px) calc(50% + 530px);
 }
 
 .card {
@@ -17,8 +17,8 @@ html {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -150px;
-    margin-left: -150px;
+    margin-top: -175px;
+    margin-left: -175px;
     width: 350px;
     height: 300px;
 }
