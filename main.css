@@ -6,35 +6,30 @@ body {
     background-color: hsl(185, 75%, 39%);
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
-    margin: 0;
     background-image: url(images/bg-pattern-top.svg),url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
     background-position: calc(50% - 520px) calc(50% - 350px) , calc(50% + 450px) calc(50% + 530px);
 }
 
 .card {
-    /* border:1px solid white; */
     position: absolute;
     top: 50%;
     left: 50%;
     margin-top: -175px;
     margin-left: -175px;
     width: 350px;
-    height: 300px;
 }
 
 .top-card {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background-image: url(images/bg-pattern-card.svg);
-    width: 100%;
     height: 140px;
 }
 
 .portrait {
     border-radius: 50%;
     position: absolute;
-    top: 45%;
     left: 50%;
     margin-top: -48px;
     margin-left: -48px;
@@ -43,7 +38,6 @@ body {
 
 .info {
     background-color: white;
-    width: 100%;
     height: 75px;
     padding-top: 70px;
     text-align: center;
@@ -54,7 +48,6 @@ body {
     background-color: white;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    width: 100%;
     height: 75px;
 }
 
@@ -64,11 +57,9 @@ ul {
 }
 
 li {
-    display: block;
     float:left;
     width: 33%;
     text-align: center;
-    /* padding: 20px 0; */
     list-style: none;
 }
 
